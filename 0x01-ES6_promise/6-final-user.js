@@ -8,5 +8,6 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
       for (const item of values) {
         result.push({ status: item.status, value: item.value || item.reason });
       }
+      return result
     });
 }
