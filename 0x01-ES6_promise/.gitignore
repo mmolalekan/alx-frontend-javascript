@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+
+# main files
+*main.js
+
+# congif files
+package.json
+package-lock.json
+babel.config.js
+utils.js
+.eslintrc.js
