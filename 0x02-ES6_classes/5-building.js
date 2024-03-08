@@ -11,4 +11,8 @@ export default class Building {
   get sqft() {
     return this._sqft; // eslint-disable-line no-underscore-dangle
   }
+
+  evacuationWarningMessage() {
+    return
+  }
 }
